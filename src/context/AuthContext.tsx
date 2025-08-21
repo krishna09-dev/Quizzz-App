@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useEffect, useState } from 'react';
-import { User } from '../lib/supabase';
+import { User } from '../lib/api';
 
 interface AuthContextType {
   user: User | null;

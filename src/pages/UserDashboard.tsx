@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Brain, Play, Trophy, Target, Clock } from 'lucide-react';
-import { Attempt } from '@/lib/supabase';
+import { Attempt } from '@/lib/api';
 
 const UserDashboard = () => {
   const { user } = useAuth();

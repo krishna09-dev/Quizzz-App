@@ -4,7 +4,7 @@ import { useAuth } from '@/context/AuthContext';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
-import { Question, mockQuestions } from '@/lib/supabase';
+import { Question, mockQuestions } from '@/lib/api';
 import { Clock, CheckCircle, AlertTriangle } from 'lucide-react';
 
 const TakeQuiz = () => {
