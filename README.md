@@ -1,73 +1,51 @@
-# Welcome to your Lovable project
+# QuizMaster App
 
-## Project info
+A modern **Quiz Application** built with **React + TypeScript** and styled in a clean **dark tech theme** (blue/teal accents, rounded cards, generous spacing).  
 
-**URL**: https://lovable.dev/projects/112a5076-b171-475a-9c24-6bb0ca384df5
+This project aims to deliver a complete **full-stack quiz platform** with role-based authentication for **users** and **admins**.  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚧 Project Status
 
-**Use Lovable**
+- ✅ **Frontend**: Completed (React + TypeScript + Tailwind)  
+  - Authentication flow (UI)  
+  - User dashboard, quizzes, results, and profile pages  
+  - Admin dashboard, add question form, user management pages  
+  - Responsive dark UI with a modern design system  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/112a5076-b171-475a-9c24-6bb0ca384df5) and start prompting.
+- 🔄 **Backend**: Work in progress  
+  - Planned stack: **Node.js/Express + MongoDB** (optionally Supabase for auth & DB)  
+  - Features in development: real database integration, secure auth, quiz storage, user stats tracking  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ✨ Planned Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### User
+- Register, login, and logout  
+- Take quizzes (multiple-choice, 4 options per question)  
+- View results instantly  
+- Track progress in profile (total attempts, average score, last attempt date)  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Admin
+- Dashboard with quick stats (total users, total quizzes, attempts)  
+- Add and manage quiz questions  
+- Search users and view individual profiles with attempt history  
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🎨 Design Highlights
+- Dark theme inspired by modern SaaS dashboards (e.g., GitHub, Vercel)  
+- Clean cards, smooth transitions, and intuitive layout  
+- Responsive for desktop and mobile  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🚀 Getting Started
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+### Frontend
+```bash
+cd fe
+npm install
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/112a5076-b171-475a-9c24-6bb0ca384df5) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
